@@ -1,0 +1,44 @@
+h2, h4{
+    text-align: center;
+    font-family: "Lucida Console";
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.red, .blue, .yellow, .purple, .green, .orange{
+    border-radius: 50%; 
+    height: 80px;
+    width: 80px;
+    margin: 25px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
